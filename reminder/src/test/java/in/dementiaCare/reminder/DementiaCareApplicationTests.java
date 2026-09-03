@@ -1,4 +1,4 @@
-package in.dementiaCare.helper;
+package in.dementiaCare.reminder;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

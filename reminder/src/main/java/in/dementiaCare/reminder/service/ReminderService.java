@@ -1,9 +1,9 @@
-package in.dementiaCare.helper.service;
+package in.dementiaCare.reminder.service;
 
-import in.dementiaCare.helper.dto.*;
-import in.dementiaCare.helper.entity.Reminder;
-import in.dementiaCare.helper.entity.ReminderStatus;
-import in.dementiaCare.helper.repository.ReminderRepository;
+import in.dementiaCare.reminder.dto.*;
+import in.dementiaCare.reminder.entity.Reminder;
+import in.dementiaCare.reminder.entity.ReminderStatus;
+import in.dementiaCare.reminder.repository.ReminderRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

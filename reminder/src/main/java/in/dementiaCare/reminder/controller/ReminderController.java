@@ -1,7 +1,7 @@
-package in.dementiaCare.helper.controller;
+package in.dementiaCare.reminder.controller;
 
-import in.dementiaCare.helper.dto.*;
-import in.dementiaCare.helper.service.ReminderService;
+import in.dementiaCare.reminder.dto.*;
+import in.dementiaCare.reminder.service.ReminderService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

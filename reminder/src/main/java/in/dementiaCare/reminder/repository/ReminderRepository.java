@@ -1,9 +1,9 @@
-package in.dementiaCare.helper.repository;
+package in.dementiaCare.reminder.repository;
 
 
 
-import in.dementiaCare.helper.entity.Reminder;
-import in.dementiaCare.helper.entity.ReminderStatus;
+import in.dementiaCare.reminder.entity.Reminder;
+import in.dementiaCare.reminder.entity.ReminderStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package in.dementiaCare.helper.dto;
+package in.dementiaCare.reminder.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

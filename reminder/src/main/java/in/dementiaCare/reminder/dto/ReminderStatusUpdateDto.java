@@ -1,6 +1,6 @@
-package in.dementiaCare.helper.dto;
+package in.dementiaCare.reminder.dto;
 
-import in.dementiaCare.helper.entity.ReminderStatus;
+import in.dementiaCare.reminder.entity.ReminderStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

@@ -1,7 +1,6 @@
-package in.dementiaCare.helper.dto;
+package in.dementiaCare.reminder.dto;
 
-import in.dementiaCare.helper.entity.ReminderStatus;
-import in.dementiaCare.helper.entity.ReminderType;
+import in.dementiaCare.reminder.entity.ReminderType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -16,9 +15,9 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ReminderResponseDto {
+public class ReminderRequestDto {
 
-    private UUID id;
+    private UUID id; // client generates this offline, so we accept it here
     private UUID patientId;
     private ReminderType type;
     private String title;
@@ -26,6 +25,4 @@ public class ReminderResponseDto {
     private LocalDateTime scheduledTime;
     private Boolean isRecurring;
     private String recurrenceRule;
-    private ReminderStatus status;
-    private LocalDateTime completedAt;
 }

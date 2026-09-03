@@ -1,4 +1,4 @@
-package in.dementiaCare.helper.entity;
+package in.dementiaCare.reminder.entity;
 
 
 
